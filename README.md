@@ -11,9 +11,9 @@ This project is build under x86 Linux, for example Ubuntu 16.04 LTS.
 ```sh
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install gcc
-sudo apt-get install gcc-5-arm-linux-gnueabi
-sudo apt-get install make
+sudo apt-get -y install gcc
+sudo apt-get -y install gcc-5-arm-linux-gnueabi
+sudo apt-get -y install make
 ```
 
 ### How to build
